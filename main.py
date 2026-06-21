@@ -21,10 +21,10 @@ if branch == "chelsea":
 else:
     print("chelsea is not the best team in the world")
 
-# Feature: Display top 10 UK Universities
-def get_top_10_uk_universities():
-    """Returns the current top 10 universities in the UK based on QS Rankings"""
-    top_10_unis = [
+# Feature: Get UK University by Ranking
+def get_uk_university_by_ranking(ranking):
+    """Returns the university at the specified ranking (1-100+)"""
+    uk_universities = [
         "University of Oxford",
         "University of Cambridge",
         "Imperial College London",
@@ -34,11 +34,114 @@ def get_top_10_uk_universities():
         "University of Edinburgh",
         "University of Warwick",
         "Durham University",
-        "University of Bath"
+        "University of Bath",
+        "University of Bristol",
+        "University of Glasgow",
+        "University of St Andrews",
+        "University of York",
+        "University of Exeter",
+        "King's College London",
+        "University of Southampton",
+        "University of Birmingham",
+        "University of Nottingham",
+        "Queen Mary University of London",
+        "University of Leeds",
+        "University of Sheffield",
+        "University of Sussex",
+        "University of Loughborough",
+        "University of Lancaster",
+        "University of Liverpool",
+        "University of Leicester",
+        "University of Reading",
+        "University of Kent",
+        "University of Aberdeen",
+        "University of Heriot-Watt",
+        "University of Strathclyde",
+        "University of Queen's Belfast",
+        "University of Cardiff",
+        "Swansea University",
+        "University of Essex",
+        "University of Stirling",
+        "Nottingham Trent University",
+        "University of Dundee",
+        "University of Plymouth",
+        "University of East Anglia (UEA)",
+        "University of Bradford",
+        "University of Hull",
+        "De Montfort University",
+        "University of Lincoln",
+        "University of Coventry",
+        "University of Central Lancashire",
+        "Brunel University",
+        "Goldsmiths University",
+        "City University London",
+        "London Metropolitan University",
+        "University of West London",
+        "University of Greenwich",
+        "Middlesex University",
+        "Kingston University",
+        "University of Northampton",
+        "University of Bedfordshire",
+        "Staffordshire University",
+        "University of Hertfordshire",
+        "Liverpool John Moores University",
+        "Leeds Beckett University",
+        "Manchester Metropolitan University",
+        "Sheffield Hallam University",
+        "Solent University",
+        "Bournemouth University",
+        "University for the Creative Arts",
+        "Arts University Bournemouth",
+        "Bath Spa University",
+        "Falmouth University",
+        "Conservatoire for Dance and Drama",
+        "Royal College of Music",
+        "Royal Academy of Music",
+        "Trinity Laban Conservatoire",
+        "Guildhall School of Music and Drama",
+        "Glyndŵr University",
+        "University of Wales Trinity Saint David",
+        "Aberystwyth University",
+        "Bangor University",
+        "University of Wales",
+        "Harper Adams University",
+        "Writtle University College",
+        "University of Cumbria",
+        "University of Chester",
+        "University of Buckingham",
+        "University of Law",
+        "BPP University",
+        "Arden University",
+        "University of Nicosia",
+        "London Business School",
+        "ESADE",
+        "IE University",
+        "EBS Universität",
+        "Ashridge Business School",
+        "Cranfield University",
+        "Open University",
+        "University of Bolton",
+        "University of Sunderland",
+        "University of Wolverhampton",
+        "University of Derby",
+        "University of Salford",
+        "University of Teesside",
+        "University of Westminster",
+        "London South Bank University",
+        "City of London Corporation",
+        "Royal Society of Arts",
+        "Birkbeck College London"
     ]
-    return top_10_unis
+    
+    if ranking < 1 or ranking > len(uk_universities):
+        return f"Ranking must be between 1 and {len(uk_universities)}"
+    
+    return uk_universities[ranking - 1]
 
-print("\n--- Top 10 Universities in the UK ---")
-universities = get_top_10_uk_universities()
-for i, uni in enumerate(universities, 1):
-    print(f"{i}. {uni}")
+# Test the function with examples
+print("\n--- UK University Ranking Lookup ---")
+print(f"Ranking 1: {get_uk_university_by_ranking(1)}")
+print(f"Ranking 3: {get_uk_university_by_ranking(3)}")
+print(f"Ranking 10: {get_uk_university_by_ranking(10)}")
+print(f"Ranking 50: {get_uk_university_by_ranking(50)}")
+print(f"Ranking 100: {get_uk_university_by_ranking(100)}")
