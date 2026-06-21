@@ -145,3 +145,71 @@ print(f"Ranking 3: {get_uk_university_by_ranking(3)}")
 print(f"Ranking 10: {get_uk_university_by_ranking(10)}")
 print(f"Ranking 50: {get_uk_university_by_ranking(50)}")
 print(f"Ranking 100: {get_uk_university_by_ranking(100)}")
+# Feature: Get Football Club by Ranking
+def get_football_club_by_ranking(ranking):
+    "Returns the football club at the specified ranking (1-50)"
+    top_football_clubs = [
+        "Manchester United",
+        "Liverpool",
+        "Manchester City",
+        "Arsenal",
+        "Chelsea",
+        "Tottenham Hotspur",
+        "Newcastle United",
+        "Brighton and Hove Albion",
+        "Aston Villa",
+        "West Ham United",
+        "Fulham",
+        "Everton",
+        "Crystal Palace",
+        "Brentford",
+        "Wolverhampton Wanderers",
+        "Southampton",
+        "Ipswich Town",
+        "Leicester City",
+        "Nottingham Forest",
+        "Leeds United",
+        "Real Madrid",
+        "Barcelona",
+        "Bayern Munich",
+        "Paris Saint-Germain",
+        "AC Milan",
+        "Inter Milan",
+        "Juventus",
+        "Napoli",
+        "Atletico Madrid",
+        "Sevilla",
+        "Borussia Dortmund",
+        "RB Leipzig",
+        "Ajax",
+        "PSV Eindhoven",
+        "Benfica",
+        "Porto",
+        "Sporting CP",
+        "AS Roma",
+        "Lazio",
+        "Galatasaray",
+        "Fenerbahce",
+        "Besiktas",
+        "Olympiacos",
+        "AEK Athens",
+        "Dynamo Kyiv",
+        "Shakhtar Donetsk",
+        "CSKA Moscow",
+        "Spartak Moscow",
+        "Zenit",
+        "Rangers"
+    ]
+    
+    if ranking < 1 or ranking > len(top_football_clubs):
+        return f"Ranking must be between 1 and {len(top_football_clubs)}"
+    
+    return top_football_clubs[ranking - 1]
+
+# Test the function with examples
+print("\n--- Top 50 Football Clubs Ranking Lookup ---")
+print(f"Ranking 1: {get_football_club_by_ranking(1)}")
+print(f"Ranking 5: {get_football_club_by_ranking(5)}")
+print(f"Ranking 20: {get_football_club_by_ranking(20)}")
+print(f"Ranking 35: {get_football_club_by_ranking(35)}")
+print(f"Ranking 50: {get_football_club_by_ranking(50)}")
