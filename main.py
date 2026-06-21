@@ -1,4 +1,5 @@
 from football import get_uk_university_by_ranking, get_football_club_by_ranking
+import grade_calculator
 print("This is the first line")
 numbers = [1, 2,3, 4, 5,6, 7]
 sum = 0
@@ -42,3 +43,7 @@ print(f"Ranking 5: {get_football_club_by_ranking(5)}")
 print(f"Ranking 20: {get_football_club_by_ranking(20)}")
 print(f"Ranking 35: {get_football_club_by_ranking(35)}")
 print(f"Ranking 50: {get_football_club_by_ranking(50)}")
+
+# Grade Calculator
+print("\n--- Grade Calculator ---")
+grade_calculator.main()
