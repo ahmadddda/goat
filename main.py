@@ -1,3 +1,4 @@
+from football import get_uk_university_by_ranking, get_football_club_by_ranking
 print("This is the first line")
 numbers = [1, 2,3, 4, 5,6, 7]
 sum = 0
@@ -21,122 +22,8 @@ if branch == "chelsea":
 else:
     print("chelsea is not the best team in the world")
 
-# Feature: Get UK University by Ranking
-def get_uk_university_by_ranking(ranking):
-    """Returns the university at the specified ranking (1-100+)"""
-    uk_universities = [
-        "University of Oxford",
-        "University of Cambridge",
-        "Imperial College London",
-        "University College London (UCL)",
-        "London School of Economics (LSE)",
-        "University of Manchester",
-        "University of Edinburgh",
-        "University of Warwick",
-        "Durham University",
-        "University of Bath",
-        "University of Bristol",
-        "University of Glasgow",
-        "University of St Andrews",
-        "University of York",
-        "University of Exeter",
-        "King's College London",
-        "University of Southampton",
-        "University of Birmingham",
-        "University of Nottingham",
-        "Queen Mary University of London",
-        "University of Leeds",
-        "University of Sheffield",
-        "University of Sussex",
-        "University of Loughborough",
-        "University of Lancaster",
-        "University of Liverpool",
-        "University of Leicester",
-        "University of Reading",
-        "University of Kent",
-        "University of Aberdeen",
-        "University of Heriot-Watt",
-        "University of Strathclyde",
-        "University of Queen's Belfast",
-        "University of Cardiff",
-        "Swansea University",
-        "University of Essex",
-        "University of Stirling",
-        "Nottingham Trent University",
-        "University of Dundee",
-        "University of Plymouth",
-        "University of East Anglia (UEA)",
-        "University of Bradford",
-        "University of Hull",
-        "De Montfort University",
-        "University of Lincoln",
-        "University of Coventry",
-        "University of Central Lancashire",
-        "Brunel University",
-        "Goldsmiths University",
-        "City University London",
-        "London Metropolitan University",
-        "University of West London",
-        "University of Greenwich",
-        "Middlesex University",
-        "Kingston University",
-        "University of Northampton",
-        "University of Bedfordshire",
-        "Staffordshire University",
-        "University of Hertfordshire",
-        "Liverpool John Moores University",
-        "Leeds Beckett University",
-        "Manchester Metropolitan University",
-        "Sheffield Hallam University",
-        "Solent University",
-        "Bournemouth University",
-        "University for the Creative Arts",
-        "Arts University Bournemouth",
-        "Bath Spa University",
-        "Falmouth University",
-        "Conservatoire for Dance and Drama",
-        "Royal College of Music",
-        "Royal Academy of Music",
-        "Trinity Laban Conservatoire",
-        "Guildhall School of Music and Drama",
-        "Glyndŵr University",
-        "University of Wales Trinity Saint David",
-        "Aberystwyth University",
-        "Bangor University",
-        "University of Wales",
-        "Harper Adams University",
-        "Writtle University College",
-        "University of Cumbria",
-        "University of Chester",
-        "University of Buckingham",
-        "University of Law",
-        "BPP University",
-        "Arden University",
-        "University of Nicosia",
-        "London Business School",
-        "ESADE",
-        "IE University",
-        "EBS Universität",
-        "Ashridge Business School",
-        "Cranfield University",
-        "Open University",
-        "University of Bolton",
-        "University of Sunderland",
-        "University of Wolverhampton",
-        "University of Derby",
-        "University of Salford",
-        "University of Teesside",
-        "University of Westminster",
-        "London South Bank University",
-        "City of London Corporation",
-        "Royal Society of Arts",
-        "Birkbeck College London"
-    ]
-    
-    if ranking < 1 or ranking > len(uk_universities):
-        return f"Ranking must be between 1 and {len(uk_universities)}"
-    
-    return uk_universities[ranking - 1]
+
+
 
 # Test the function with examples
 print("\n--- UK University Ranking Lookup ---")
@@ -145,66 +32,8 @@ print(f"Ranking 3: {get_uk_university_by_ranking(3)}")
 print(f"Ranking 10: {get_uk_university_by_ranking(10)}")
 print(f"Ranking 50: {get_uk_university_by_ranking(50)}")
 print(f"Ranking 100: {get_uk_university_by_ranking(100)}")
+
 # Feature: Get Football Club by Ranking
-def get_football_club_by_ranking(ranking):
-    "Returns the football club at the specified ranking (1-50)"
-    top_football_clubs = [
-        "Manchester United",
-        "Liverpool",
-        "Manchester City",
-        "Arsenal",
-        "Chelsea",
-        "Tottenham Hotspur",
-        "Newcastle United",
-        "Brighton and Hove Albion",
-        "Aston Villa",
-        "West Ham United",
-        "Fulham",
-        "Everton",
-        "Crystal Palace",
-        "Brentford",
-        "Wolverhampton Wanderers",
-        "Southampton",
-        "Ipswich Town",
-        "Leicester City",
-        "Nottingham Forest",
-        "Leeds United",
-        "Real Madrid",
-        "Barcelona",
-        "Bayern Munich",
-        "Paris Saint-Germain",
-        "AC Milan",
-        "Inter Milan",
-        "Juventus",
-        "Napoli",
-        "Atletico Madrid",
-        "Sevilla",
-        "Borussia Dortmund",
-        "RB Leipzig",
-        "Ajax",
-        "PSV Eindhoven",
-        "Benfica",
-        "Porto",
-        "Sporting CP",
-        "AS Roma",
-        "Lazio",
-        "Galatasaray",
-        "Fenerbahce",
-        "Besiktas",
-        "Olympiacos",
-        "AEK Athens",
-        "Dynamo Kyiv",
-        "Shakhtar Donetsk",
-        "CSKA Moscow",
-        "Spartak Moscow",
-        "Zenit",
-        "Rangers"
-    ]
-    
-    if ranking < 1 or ranking > len(top_football_clubs):
-        return f"Ranking must be between 1 and {len(top_football_clubs)}"
-    
-    return top_football_clubs[ranking - 1]
 
 # Test the function with examples
 print("\n--- Top 50 Football Clubs Ranking Lookup ---")
