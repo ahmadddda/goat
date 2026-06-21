@@ -11,3 +11,6 @@ print(sum)
 print("This is the login feature")
 
 print("VISC TIME lets test this out")
+print("simultaneous equat")
+print("hyperbolic functions")
+print("how does this work")
