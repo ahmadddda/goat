@@ -47,3 +47,6 @@ print(f"Ranking 50: {get_football_club_by_ranking(50)}")
 # Grade Calculator
 print("\n--- Grade Calculator ---")
 grade_calculator.main()
+
+
+print("inshallah we get an a* and go to imperial")
