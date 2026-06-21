@@ -14,3 +14,9 @@ print("VISC TIME lets test this out")
 print("simultaneous equat")
 print("hyperbolic functions")
 print("how does this work")
+
+branch = "chelsea"
+if branch == "chelsea":
+    print("chelsea is the best team in the world")
+else:
+    print("chelsea is not the best team in the world")
