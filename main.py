@@ -49,4 +49,3 @@ print("\n--- Grade Calculator ---")
 grade_calculator.main()
 
 
-print("inshallah we get an a* and go to imperial")
