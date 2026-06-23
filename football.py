@@ -1,5 +1,5 @@
 def get_football_club_by_ranking(ranking):
-    "Returns the football club at the specified ranking (1-50)"
+
     top_football_clubs = [
         "Manchester United",
         "Liverpool",
