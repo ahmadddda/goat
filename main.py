@@ -1,6 +1,7 @@
 
 from football import get_uk_university_by_ranking, get_football_club_by_ranking
 import grade_calculator
+import encryption
 from weather import get_weather
 print("This is the first line")
 numbers = [1, 2,3, 4, 5,6, 7]
@@ -49,6 +50,10 @@ print(f"Ranking 50: {get_football_club_by_ranking(50)}")
 # Grade Calculator
 print("\n--- Grade Calculator ---")
 grade_calculator.main()
+
+# Encryption
+print("\n--- Encryption ---")
+encryption.main()
 
 # Weather App
 print("\n--- Weather App ---")

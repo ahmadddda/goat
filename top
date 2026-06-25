@@ -1,0 +1,126 @@
+[33mcommit 1e31db4e19b09f1147733d3a5ce186c9934bbee5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ahmadddda <ahmadmuhieddine08@gmail.com>
+Date:   Tue Jun 23 01:59:54 2026 +0100
+
+    video 44
+
+[33mcommit 3b34ff86a7d9bba8bb12ab60de3c0056f6132bfe[m
+Author: Ahmad <ahmadmuhieddine08@gmail.com>
+Date:   Tue Jun 23 01:37:55 2026 +0100
+
+    added random number feature
+
+[33mcommit 1901b887cd2444a9229de532b5ed2df6f1039785[m
+Author: Ahmad <ahmadmuhieddine08@gmail.com>
+Date:   Mon Jun 22 02:01:05 2026 +0100
+
+    finished 20 nested loops
+
+[33mcommit e4a67839085ad217c424fc8021763a5bcc4cc49e[m
+Merge: a73791f 9c58642
+Author: ahmadddda <ahmadmuhieddine08@gmail.com>
+Date:   Mon Jun 22 00:10:32 2026 +0100
+
+    Merge pull request #2 from ahmadddda/aislop
+    
+    inshallah
+
+[33mcommit 9c58642f63edbefddc1c4bd8708616dc4842bf10[m[33m ([m[1;31morigin/aislop[m[33m)[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Mon Jun 22 00:07:19 2026 +0100
+
+    inshallah
+
+[33mcommit a73791f1ed2ed233cb35b3a781407ac82dfa034f[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Mon Jun 22 00:05:38 2026 +0100
+
+    claude experiment
+
+[33mcommit 108aa4ba0f4635144b35f6e99b0634dba8a8a039[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 21:08:31 2026 +0100
+
+    cache
+
+[33mcommit 1fbf9712fdd3c30ad748e9c0d993dac2853af4c5[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 21:06:42 2026 +0100
+
+    separate files
+
+[33mcommit 0d0312acfb372429a7d6384907137e0584be3b00[m
+Merge: 9848f76 b96d9db
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 20:07:39 2026 +0100
+
+    Merge branch 'football' into main: add football feature
+
+[33mcommit b96d9db8d90cf57694a9ac17394b2a0c8b272d94[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 20:06:33 2026 +0100
+
+    football feature
+
+[33mcommit 9848f76f245669371a1e00a3d92976c63430d189[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 20:00:07 2026 +0100
+
+    Add UK university ranking lookup feature
+
+[33mcommit 213bedb79b3b580932a3e07dad67a18dbe78a139[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 19:50:48 2026 +0100
+
+    imperial feature
+
+[33mcommit 5768edcf2d81a6d4059bca417bb4b1b97f24857c[m
+Merge: 456295f 81f7ae0
+Author: ahmadddda <ahmadmuhieddine08@gmail.com>
+Date:   Sun Jun 21 19:45:27 2026 +0100
+
+    Merge pull request #1 from ahmadddda/chelsea
+    
+    chelsea branhc ez
+
+[33mcommit 81f7ae06e35aa3eed19dc6aa85ff64791056b5ac[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 19:44:39 2026 +0100
+
+    chelsea branhc ez
+
+[33mcommit 456295f24b4ace41400cd20dfaa77430ed19e2d3[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 19:41:13 2026 +0100
+
+    the message for my change is that the message is that
+
+[33mcommit 99ec7661609c874303fd5321dabdb266a0030202[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 19:38:45 2026 +0100
+
+    vsc change
+
+[33mcommit 92780f7c988ff8f7a41d7fdce26b36cad2a2928f[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 02:15:12 2026 +0100
+
+    Added the login feature
+
+[33mcommit 4c96fe56976480a09c1958082a98765477079f8f[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 01:36:37 2026 +0100
+
+    Second commit - added the sum of squares feature
+
+[33mcommit 53f9bbcc4960fef34cf127391f87786b76075f02[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 01:33:17 2026 +0100
+
+    First commit
+
+[33mcommit ca6b23f58b12e829528153fd30f196ebb001e224[m
+Author: Ahmad <kkineticcbtw@gmail.com>
+Date:   Sun Jun 21 01:30:29 2026 +0100
+
+    first commit
