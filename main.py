@@ -1,8 +1,9 @@
-
 from football import get_uk_university_by_ranking, get_football_club_by_ranking
 import grade_calculator
 import encryption
 from weather import get_weather
+import random
+
 print("This is the first line")
 numbers = [1, 2,3, 4, 5,6, 7]
 sum = 0
@@ -60,7 +61,7 @@ print("\n--- Weather App ---")
 city = input("Enter a city to check the weather: ").strip()
 print(get_weather(city))
 
-import random
+
 userInput = input("how many numbers do you want")
 userInput = int(userInput)
 for x in range(userInput):
