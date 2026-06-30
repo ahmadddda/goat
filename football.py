@@ -173,4 +173,4 @@ def get_uk_university_by_ranking(ranking):
     if ranking < 1 or ranking > len(uk_universities):
         return f"Ranking must be between 1 and {len(uk_universities)}"
     
-    return uk_universities[ranking - 1]
+        return uk_universities[ranking - 1]
